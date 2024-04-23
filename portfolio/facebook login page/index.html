@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Facebook (1).webp" type="image/x-icon" />
+    <title>Login Page</title>
+  </head>
+  <style>
+    * {
+      margin: 0%;
+      padding: 0%;
+    }
+    body {
+      background-color: black;
+    }
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .left {
+      margin-top: 0px;
+    }
+    .left h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(78, 78, 142);
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    .left p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 30px;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid white;
+      width: 400px;
+      height: 400px;
+      margin-top: 200px;
+      border-radius: 10px;
+      box-shadow: whitesmoke;
+    }
+    .right .email {
+      margin-top: 50px;
+         text-align: center;
+         
+    }
+    .right .password {
+        
+      text-align: center;
+    }
+    .right input{
+          border-radius: 5px;
+          height: 40px;
+          width: 350px;
+    }
+    .btn button{
+        text-align: center;
+      margin-top: 30px;
+      border-radius: 5px;
+          height: 40px;
+          width: 350px;
+          margin-left: 25px;
+          background-color: rgb(8, 8, 94);
+          color: white;
+          font-size: 20px;
+          font-size: 20px;
+          font-weight: bolder;
+          cursor: pointer;
+    }
+    .forget{
+        text-align: center;
+        margin-top:5px ;
+    }
+    .forget a{
+        text-decoration: none; 
+        color: rgb(78, 78, 142);
+    }
+    hr{
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .create{
+        text-align: center;
+        margin-top:20px ;  
+    }
+    .create a button{
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        border-radius: 2px ;
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+    }
+  </style>
+  <body>
+    <section class="container">
+      <div class="left">
+        <h1>facebook</h1>
+        <p>Connect with Friends and the world</p>
+        <p>around you on facebook</p>
+      </div>
+      <div class="right">
+        <div class="email">
+          <input type="text" placeholder="Email or phone number" id="email" required />
+        </div>
+        <br />
+        <div class="password">
+          <input type="password" placeholder="Password" id="password" required />
+        </div>
+       <div class="btn">
+        <button>Login</button>
+       </div>
+       <div class="forget"><a href="/"><p>Forgot Password?</p></a></div>
+       <hr>
+       <div class="create">
+        <a href="/"><button>Create New Account</button></a>
+       </div>
+        </div>
+       
+      </div>
+    </section>
+  </body>
+</html>
